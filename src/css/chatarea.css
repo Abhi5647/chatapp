@@ -1,0 +1,57 @@
+.chatarea {
+  border: 2px solid black;
+  height: 910px;
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+  background-image: linear-gradient(135deg, #9796f0 10%, #FBC7D4 100%);
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  align-items: baseline;
+  
+}
+.reply{
+margin-left: 8px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.submit{
+  margin-bottom: 5px;
+  margin-left: 2px;
+  height: 70px;
+  width: 90px;
+}
+.box{
+  border: 2px solid ;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 10px;
+  justify-content: space-between;
+
+}
+.chatLeft{
+  display: flex;
+align-items: flex-start;
+justify-content: left;
+}
+.chatRight{
+  display: flex;
+  justify-content: right;
+}
+.chatbox{
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+}
+.area{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.column{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
